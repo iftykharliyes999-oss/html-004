@@ -1,0 +1,26 @@
+.aarong-nav .nav-link {
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.aarong-nav .nav-link:hover {
+  color: #b38b2e;
+}
+
+.aarong-nav i {
+  font-size: 18px;
+  cursor: pointer;
+}
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
