@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <table class="table table-bordered border-primary"> 
+        <tr> 
+            <th>NAME</th>
+            <th>PHONE NO</th>
+            <th>E-MAIL</th>
+            <th>ACTION</th>
+        </tr>
+        <tr> 
+            <td>IFTY</td>
+            <td>01366656656</td>
+            <td>ifty666@gmail.com</td>
+            <td> 
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="ADD FILE"><i class="bi bi-file-earmark-plus"></i></button>
+                <button type="button" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="DELETE"><i class="bi bi-trash3"></i></button>
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="VIEW"><i class="bi bi-eye"></i></button>
+            </td>
+        </tr>
+        <tr> 
+            <td>KHAR</td>
+            <td>0155616165</td>
+            <td>khar3323@gmail.com</td>
+            <td> 
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="ADD FILE"><i class="bi bi-file-earmark-plus"></i></button>
+                <button type="button" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="DELETE"><i class="bi bi-trash3"></i></button>
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="VIEW"><i class="bi bi-eye"></i></button>
+            </td>
+        </tr>
+        <tr> 
+            <td>LIYES</td>
+            <td>01454545121</td>
+            <td>liyes848@gmail.com</td>
+            <td> 
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="ADD FILE"><i class="bi bi-file-earmark-plus"></i></button>
+                <button type="button" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="DELETE"><i class="bi bi-trash3"></i></button>
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="VIEW"><i class="bi bi-eye"></i></button>
+            </td>
+        </tr>
+        <tr> 
+            <td>ASHIK</td>
+            <td>01156656694</td>
+            <td>ashik666@gmail.com</td>
+            <td> 
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="ADD FILE"><i class="bi bi-file-earmark-plus"></i></button>
+                <button type="button" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="DELETE"><i class="bi bi-trash3"></i></button>
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="VIEW"><i class="bi bi-eye"></i></button>
+            </td>
+        </tr>
+    </table>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script> 
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+    </script>
+</body>
+</html>
