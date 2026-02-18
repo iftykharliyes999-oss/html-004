@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        // add from last
+        var st_70 = ["sumi" , "meem" , "liyes" , "Rakib"]
+        console.log(st_70);
+        st_70.push("fahim")
+         console.log(st_70);
+
+
+    </script>
+<!-- if you want to add at first u must use .unshift -->
+
+
+         <!-- remove from last -->
+     <script> 
+      var st_70 = ["sumi" , "meem" , "liyes" , "Rakib"]
+        console.log(st_70);
+      st_70.pop("Rakib");
+       console.log(st_70);
+    </script>
+    <!-- ARRAY SLICE -->
+     <script> 
+        const numbers = ["A", "B", "C", "D", "E", "F", "G"]
+        console.log(numbers)
+        console.log(numbers.slice(2))
+        console.log(numbers.slice(2,4))
+     </script>
+     <!-- ARRAY SPLICE -->
+      <script> 
+        var a = ["A", "B", "C", "D", "E", "F", "G"]
+        console.log(a);
+        a.splice(3,2,"K", "L")
+        console.log(a)
+      </script>
+
+       <!-- join -->
+        <script> 
+             var a = ["A", "B", "C", "D", "E", "F", "G"]
+             console.log(a);
+             let b = a.join(" , ")
+             console.log(b)
+             document.write(b)
+        </script>
+
+        <!-- concat -->
+         <script> 
+         var a = ["A", "B", "C", "D", "E"]
+         var f = ["F", "G", "H", "I", "J"]
+         var c = ["K", "L", "M", "N", "O"]
+          let d = f.concat(c,a);
+          console.log(d)
+
+         </script>
+          <!-- sort/ reverse/ serial maintain -->
+           <script> 
+            let letter = ["C", "D", "B", "E", "A",]
+            console.log(letter)
+            letter.sort();
+            console.log(letter)
+            letter.reverse();
+            console.log(letter)
+
+            let num = ["1", "2", "3", "4", "5",]
+            num.reverse();
+            console.log(num)
+           </script>
+           
+           <!-- number sort -->
+             <script> 
+                let  chiki = [47,54,67,23.26,55,33,43,44]
+                chiki.sort(function(x,y){ 
+                    return x-y
+
+                })
+                console.log(chiki)
+             </script>
+          
+
+</body>
+</html>
