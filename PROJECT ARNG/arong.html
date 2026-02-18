@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 
 <body>
@@ -15,23 +19,23 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- logo -->
-                <div class="col-1">
-                    <a href="#" class="logo-01"> <img src="ar image/aaar logo.png" height="80" width="80" alt="logo"
+                <div class="col-1" style="margin-top: 15px; left: 6px;">
+                    <a href="#" class="logo-01"> <img src="ar image/aaar logo.png" height="85" width="85" alt="logo"
                             srcset=""></a>
                 </div>
                 <div class="col-11">
                     <div class="row">
                         <div class="col-6">
-                            <ul class="list-inline">
-                                <li>TAAGA</li>
-                                <li>TAAGA MAN</li>
-                                <li>HERSTORY</li>
-                                <li>arong earth</li>
+                            <ul class="list-inline" style="margin-top: 20px;">
+                                <li><b><h4>T A A G A</h4></b></li>
+                                <li><b><h4>T A A G A M A N</h4></b></li>
+                                <li> <i> <b><h4>HERSTORY</h4></b></i></li>
+                                <li><b>arong</b> <br><h4>earth</h4></li>
 
                             </ul>
                         </div>
                         <div class="col-6">
-                            <div class="right-wrap">
+                            <div class="right-wrap" style="margin-top: 20px;">
 
                                 <!-- Search -->
                                 <div class="search-area">
@@ -57,95 +61,7 @@
 
                                 <li class="nav-item mega">
                                     <a href="#">WOMEN</a>
-
-                                    <div class="mega-menu">
-
-                                        <div class="mega-cols">
-
-                                            <div>
-                                                <h6>NEW ARRIVALS</h6>
-                                                <h6>SAREE</h6>
-                                                <ul>
-                                                    <li>Cotton</li>
-                                                    <li>Muslin</li>
-                                                    <li>Silk</li>
-                                                    <li>Jamdani</li>
-                                                </ul>
-
-                                                <h6>SHALWAR KAMEEZ</h6>
-                                                <ul>
-                                                    <li>Cotton & Blends</li>
-                                                    <li>Silk</li>
-                                                    <li>Muslin</li>
-                                                </ul>
-
-                                                <h6>KURTA</h6>
-                                            </div>
-
-                                            <div>
-                                                <h6>PANJABI</h6>
-                                                <h6>TOPS</h6>
-                                                <h6>COATS & JACKETS</h6>
-                                                <h6>CO-ORDS</h6>
-                                                <h6>SHRUGS</h6>
-                                                <h6>SKIRTS</h6>
-                                                <h6>PANTS</h6>
-
-                                                <h6>MATERNITY</h6>
-                                                <ul>
-                                                    <li>Tops</li>
-                                                    <li>Tunics</li>
-                                                    <li>Dresses</li>
-                                                </ul>
-                                            </div>
-
-                                            <div>
-                                                <h6>DUPATTA</h6>
-                                                <h6>SCARVES</h6>
-                                                <h6>NIGHTWEAR</h6>
-                                                <h6>SHAWLS</h6>
-                                                <ul>
-                                                    <li>Viscose</li>
-                                                    <li>Cotton</li>
-                                                    <li>Silk</li>
-                                                </ul>
-
-                                                <h6>FABRIC (METRES)</h6>
-                                                <ul>
-                                                    <li>3-Piece Sets</li>
-                                                    <li>Blouse Pieces</li>
-                                                </ul>
-                                            </div>
-
-                                            <div>
-                                                <h6>SHOES</h6>
-                                                <ul>
-                                                    <li>Sandals</li>
-                                                    <li>Heels</li>
-                                                    <li>Pumps</li>
-                                                </ul>
-
-                                                <h6>ACCESSORIES</h6>
-                                                <ul>
-                                                    <li>Bags</li>
-                                                    <li>Purses</li>
-                                                    <li>Wallets</li>
-                                                    <li>Belts</li>
-                                                </ul>
-
-                                                <h6>TAAGA</h6>
-                                                <h6>HERSTORY BY AARONG</h6>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="mega-image">
-                                            <img src="img/women.jpg" alt="">
-                                        </div>
-
-                                    </div>
                                 </li>
-
                                 <li class="nav-item"><a href="#">MEN</a></li>
                                 <li class="nav-item"><a href="#">KIDS</a></li>
                                 <li class="nav-item"><a href="#">HOME DÉCOR</a></li>
@@ -169,7 +85,484 @@
 
     </header>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+    <div class="container-fluid">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <img src="ar image/carsoul-kids.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="ar image/carsoul-eid2026-sm.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="ar image/carsoul-3 fashion parade.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1200">
+                    <img src="ar image/carsoul-4 ladies photoshoot.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="ar image/carsoul-5 kids.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-</html>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 p-3" style="cursor: pointer;">
+
+        <!-- Card -->
+        <div class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+            <img src="ar image/Women card.webp" alt="Women" class="w-full h-72 object-cover">
+            <div class="bg-gray-100 text-center py-2">
+                <h6 class="text-lg font-semibold tracking-wide">WOMEN</h6>
+            </div>
+        </div>
+        <div class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+            <img src="ar image/Men card.webp" alt="Men" class="w-full h-72 object-cover">
+            <div class="bg-gray-100 text-center py-2">
+                <h6 class="text-lg font-semibold tracking-wide">MEN</h6>
+            </div>
+        </div>
+        <div class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+            <img src="ar image/kids card.webp" alt="Kids" class="w-full h-72 object-cover">
+            <div class="bg-gray-100 text-center py-2">
+                <h6 class="text-lg font-semibold tracking-wide">KIDS</h6>
+            </div>
+        </div>
+        <div class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+            <img src="ar image/home-decor card.webp" alt="Home Decor" class="w-full h-72 object-cover">
+            <div class="bg-gray-100 text-center py-2">
+                <h6 class="text-lg font-semibold tracking-wide">HOME DECOR</h6>
+            </div>
+        </div>
+
+    </div>
+    <!-- 2nd column -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 p-3" style="cursor: pointer;">
+        <div class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+            <img src="ar image/CARD JEWALLRY.webp" alt="JEWELLERY" class="w-full h-72 object-cover">
+            <div class="bg-gray-100 text-center py-2">
+                <h6 class="text-lg font-semibold tracking-wide">JEWELLERY</h6>
+            </div>
+        </div>
+        <div class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+            <img src="ar image/card skin and hair.webp" alt="SKIN" class="w-full h-72 object-cover">
+            <div class="bg-gray-100 text-center py-2">
+                <h6 class="text-lg font-semibold tracking-wide">SKIN & HAIR</h6>
+            </div>
+        </div>
+        <div class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+            <img src="ar image/gifts card.webp" alt="GIFTS" class="w-full h-72 object-cover">
+            <div class="bg-gray-100 text-center py-2">
+                <h6 class="text-lg font-semibold tracking-wide">GIFTS & CRAFTS</h6>
+            </div>
+        </div>
+        <div class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+            <img src="ar image/weeding.webp" alt="weeding" class="w-full h-72 object-cover">
+            <div class="bg-gray-100 text-center py-2">
+                <h6 class="text-lg font-semibold tracking-wide">WEDDING</h6>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="ar image/lefthome-decor card-2.webp" width="100%" alt="Home">
+            </div>
+            <div class="col">
+                <img src="ar image/right-home-decor-box-banner card-2.webp" width="100%" alt="banner">
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 20px;">
+        <div class="col-12">
+            <h1 style="text-align: center;">WHAT'S NEW</h1>
+        </div>
+    </div>
+    <!-- carousel-2 -->
+    <!-- <div class="container">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card" style="width: 18rem; height: fit-content;">
+                        <img src="ar image/3pis caro-2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="card" style="width: 18rem; height: fit-content;">
+                        <img src="ar image/3pis caro-2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="card" style="width: 18rem; height: fit-content;">
+                        <img src="ar image/3pis caro-2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="card" style="width: 18rem; height: fit-content;">
+                        <img src="ar image/3pis caro-2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div> -->
+
+    <!-- HTML Slider -->
+    <section class="py-5">
+        <div class="container">
+            <div class="swiper continuousSwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <img src="ar image/3pis caro-2.webp" alt="Product 1" />
+                            <div class="plus-btn">+</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <img src="ar image/3pis caro-2.webp" alt="Product 2" />
+                            <div class="plus-btn">+</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <img src="ar image/3pis caro-2.webp" alt="Product 3" />
+                            <div class="plus-btn">+</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <img src="ar image/3pis caro-2.webp" alt="Product 4" />
+                            <div class="plus-btn">+</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <img src="ar image/3pis caro-2.webp" alt="Product 5" />
+                            <div class="plus-btn">+</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <img src="ar image/3pis caro-2.webp" alt="Product 6" />
+                            <div class="plus-btn">+</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 7 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <img src="ar image/3pis caro-2.webp" alt="Product 7" />
+                            <div class="plus-btn">+</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 8 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <img src="ar image/3pis caro-2.webp" alt="Product 8" />
+                            <div class="plus-btn">+</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 9 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <img src="ar image/3pis caro-2.webp" alt="Product 9" />
+                            <div class="plus-btn">+</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Navigation arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- html area end -->
+
+    <!-- rafin js  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".continuousSwiper", {
+            slidesPerView: 4,
+            slidesPerGroup: 1,
+            spaceBetween: 20,
+            loop: true,
+            speed: 800,
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true
+            },
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            breakpoints: {
+                0: { slidesPerView: 1 },
+                576: { slidesPerView: 2 },
+                768: { slidesPerView: 3 },
+                992: { slidesPerView: 4 }
+            }
+        });
+    </script>
+
+
+
+
+
+    <!-- rafin js end -->
+    <!-- rafin ariya end -->
+
+
+
+
+    <!-- carusel tagga -->
+
+    <div class="container-fluid" style="margin-top: 10px;">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <img src="ar image/TAAGA carousel-1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="ar image/TAAGA carousel-2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="ar image/TAAGA carousel-3.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+    <div class="container-fluid" style="margin-top: 10px;">
+        <div class="row">
+            <div class="col">
+                <img src="ar image/ifty khar-1.webp" width="100%" alt="Home">
+            </div>
+            <div class="col">
+                <img src="ar image/ifty khar-2.webp" width="100%" alt="banner">
+            </div>
+
+        </div>
+        <!-- ICON MAIL -->
+        <div class="container-fluid" style="margin-top: 15px; background-color: rgb(241, 238, 238);">
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-4" style="margin-top: 20px; margin-bottom: 20px;">
+                    <a>
+                        <h2><i class="bi bi-envelope"></i> STAY TUNED</h2>
+                        <h6>Don't miss the opportunity to get daily updates on all</h6>
+                    </a>
+                    <h6>that's new at Aarong</h6>
+
+                </div>
+                <!-- FORM -->
+                <div class="col-7">
+                    <div class="container mt-5">
+                        <div class="subscribe-section">
+                            <form style="margin-left: 60px;">
+                                <div class="row g-1 align-items-center">
+                                    <div class="col-md-4">
+                                        <input type="email" class="form-control" placeholder="Enter Email Address">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control" placeholder="Enter Mobile Number">
+
+                                    </div>
+                                    <div class="col-md-auto">
+                                        <button type="submit" class="btn subscribe-btn"
+                                            style="background-color: black;color: white;">SUBSCRIBE</button>
+                                    </div>
+
+
+                                    <div class="mt-3 d-flex align-items-center gap-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="location" id="inside"
+                                                checked>
+                                            <label class="form-check-label" for="inside">
+                                                I live in Bangladesh
+                                            </label>
+                                        </div>
+
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="location" id="outside">
+                                            <label class="form-check-label" for="outside">
+                                                I live outside Bangladesh
+                                            </label>
+                                        </div>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+
+            <div class="col-md-3">
+                <div class="custom-card">
+                    <img src="ar image/who-we-are.webp" class="img-fluid" alt="">
+                    <div class="card-text" style="cursor: pointer;">WHO WE ARE</div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="custom-card">
+                    <img src="ar image/Category.webp" class="img-fluid" alt="">
+                    <div class="card-text" style="cursor: pointer;">CATEGORIES</div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="custom-card">
+                    <img src="ar image/customer-service.webp" class="img-fluid" alt="">
+                    <div class="card-text" style="cursor: pointer;">CUSTOMER SERVICE</div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="custom-card">
+                    <img src="ar image/more_2.webp" class="img-fluid" alt="">
+                    <div class="card-text" style="cursor: pointer;">MORE</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container-flex">
+            <div class="row align-items-center text-center text-lg-start">
+
+                <!-- Left -->
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    Copyright © 2025 Adrong. All rights reserved.
+                </div>
+
+                <!-- Center Social Icons -->
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="d-flex justify-content-center gap-4">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-pinterest"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- Right Store Buttons -->
+                <div class="col-lg-4 text-lg-end">
+                    <div class="row">
+                        <div class="col-6">
+                            <div>
+                                <a href="#" class="store-btn me-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                        style="margin-left: 70px;" alt="Google Play">
+                                </a>
+                            </div>
+
+
+                        </div>
+                        <div class="col-6">
+                            <div>
+                                <a href="#" class="store-btn">
+                                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                        alt="App Store">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>

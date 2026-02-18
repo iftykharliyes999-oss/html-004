@@ -48,10 +48,11 @@
 }
 .nav-main{
   display: flex;
-  gap: 24px;
+  gap: 18px;
   list-style: none;
-  margin: 0;
+  margin:0;
   padding: 0;
+
 }
 
 .nav-item{
@@ -70,53 +71,131 @@
   border-bottom: 2px solid #f36f21;
 }
 
-/* Mega menu */
-.mega-menu{
+.custom-card{
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.custom-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+.custom-card:hover img{
+    transform: scale(1.1);
+}
+
+.card-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    z-index: 2;
+}
+
+/* Dark overlay */
+.custom-card::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    top: 0;
+    left: 0;
+}
+.footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+    }
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+    .footer a:hover {
+      color: #ff6600;
+    }
+    .store-btn img {
+      height: 50px;
+    }
+    .store-btn-me-2{ 
+      height: 50px;
+      
+    }
+
+
+    /* rafin edits */
+
+    
+
+.product-card {
+  position: relative;
+}
+
+.product-card img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.plus-btn {
   position: absolute;
-  left: -150px;
-  top: 100%;
-  width: 1100px;
-  background: #fff;
-  display: none;
-  padding: 35px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-  z-index: 999;
-}
-
-.mega:hover .mega-menu{
+  bottom: 10px;
+  left: 10px;
+  background: black;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   display: flex;
-  gap: 40px;
-}
-
-/* Columns */
-.mega-cols{
-  display: flex;
-  gap: 50px;
-}
-
-.mega-cols h6{
-  font-size: 13px;
-  font-weight: 600;
-  margin: 12px 0 6px;
-}
-
-.mega-cols ul{
-  list-style: none;
-  padding: 0;
-  margin-bottom: 12px;
-}
-
-.mega-cols li{
-  font-size: 13px;
-  margin-bottom: 6px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
   cursor: pointer;
 }
 
-.mega-cols li:hover{
-  color: #f36f21;
+.swiper-slide {
+  width: auto;
 }
 
-/* Image */
-.mega-image img{
-  width: 260px;
+/* Arrows outside slider */
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between arrows and slider */
 }
+
+.slider-arrow {
+  width: 40px;
+  height: 40px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slider-arrow:hover {
+  background: black;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+    /* rafin edits end */
