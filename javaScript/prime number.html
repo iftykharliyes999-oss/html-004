@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>prime</title>
 </head>
 <body> 
-    <script> 
+    <!-- <script> 
         //forloop (initialization,condition,incerement/decrement/update)
         //prime number 5=2,3,4.
         function isPrime(num) {
@@ -25,6 +25,36 @@ console.log(isPrime(29)); // true
 
 
     </script>
-    
+     -->
+
+
+
+     <script>
+
+var number = prompt("Enter a number:");
+var isPrime = true;
+
+if (number <= 1) {
+    isPrime = false;
+} else {
+
+    for (var i = 2; i < number; i++) {
+
+        if (number % i == 0) {
+            isPrime = false;
+            break;
+        }
+
+    }
+
+}
+
+if (isPrime) {
+    document.write(number + " is a Prime Number");
+} else {
+    document.write(number + " is Not a Prime Number");
+}
+
+</script>
 </body>
 </html>
